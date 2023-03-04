@@ -1,0 +1,106 @@
+:root {
+    /* Color Theme Swatches in Hex */
+    --dark: #202426;
+    --medium-dark: #6C733D;
+    --medium: #9DA65D;
+    --medium-light: #8C8C88;
+    --light: #F2F2F2;
+}
+
+.top-navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-width: 320px;
+    height: min-content;
+    padding: 16px 0;
+    background-color: var(--medium);
+    color: var(--dark);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.left-content {
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    vertical-align: middle;
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.text {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.center-content {
+    flex: 1;
+    text-align: center;
+}
+
+.select-menu {
+    display: inline-block;
+    position: relative;
+}
+
+.menu-items {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    background-color: #fff;
+    color: #333;
+    padding: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.menu-items span {
+    display: block;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.menu-items span:hover {
+    text-decoration: underline;
+}
+
+.right-content {
+    display: flex;
+    align-items: center;
+    padding-right: 20px;
+}
+
+.icon {
+    font-size: 20px;
+}
+
+.stacked-icon {
+    width: 4rem;
+    height: 4rem;
+}
+
+@media (max-width: 480px) {
+    .top-navbar {
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        height: min-content;
+        padding: 1em 0;
+    }
+
+    .left-content {
+        padding-left: 0;
+        margin-bottom: 16px;
+    }
+
+    .center-content {
+        margin-bottom: 16px;
+    }
+
+    .right-content {
+        padding-right: 0;
+    }
+}

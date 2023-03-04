@@ -1,6 +1,21 @@
+* {
+  /* border: 1px solid red; */
+}
+
 #root {
   max-width: 1280px;
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
+
+  /* Color Theme Swatches in Hex */
+  --dark: #202426;
+    --medium-dark: #6C733D;
+    --medium: #9DA65D;
+    --medium-light: #8C8C88;
+    --light: #F2F2F2;
+}
+
+body {
+  background: var(--light);
 }
