@@ -1,12 +1,3 @@
-:root {
-    /* Color Theme Swatches in Hex */
-    --dark: #202426;
-    --medium-dark: #6C733D;
-    --medium: #9DA65D;
-    --medium-light: #8C8C88;
-    --light: #F2F2F2;
-}
-
 .top-navbar {
     position: fixed;
     top: 0;
@@ -50,7 +41,7 @@
     position: absolute;
     top: 100%;
     left: 0;
-    width: 100%;
+    min-width: max-content;
     background-color: #fff;
     color: #333;
     padding: 10px;
