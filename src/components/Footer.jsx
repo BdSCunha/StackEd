@@ -6,7 +6,7 @@ export const Footer = () => {
     return (
         <footer className="footer">
             <div className='social-media'>
-                <span>Find StackEd on</span>
+                {/* <span>Find StackEd on</span> */}
                 <ul>
                     <li><FaFacebook className="icon" /></li>
                     <li><FaInstagram className="icon" /></li>
