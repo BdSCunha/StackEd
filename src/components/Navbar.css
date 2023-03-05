@@ -1,11 +1,12 @@
 .top-navbar {
-    position: fixed;
+    position: static;
     top: 0;
     left: 0;
     width: 100%;
     min-width: 320px;
     height: min-content;
     padding: 16px 0;
+    margin-bottom: 1em;
     background-color: var(--medium);
     color: var(--dark);
     display: flex;

@@ -1,13 +1,13 @@
 import { Navbar } from '../components/Navbar.jsx'
+import { CourseCatalog } from '../components/CourseCatalog.jsx'
 import { Footer } from '../components/Footer.jsx'
 
 export const Home = () => {
     return (
-        <>
+        <div className="wrapper">
             <Navbar />
-            <h1>StackEd</h1>
-            <div>Your school for technology and web development!</div>
+            <CourseCatalog />
             <Footer />
-        </>
+        </div>
     )
 }

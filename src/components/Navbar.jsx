@@ -11,7 +11,7 @@ export const Navbar = () => {
     return (
         <nav className="top-navbar">
             <div className="left-content">
-                <span style={{ display: "flex", alignItems: "center" }}><img src='src\assets\images\stacked-logo.ico' className='stacked-icon' alt='books by Andrejs Kirma from Noun Project (CCBY3.0)'></img><span>StackEd</span></span>
+                <span style={{ display: "flex", alignItems: "center" }}><img src='src\assets\images\stacked-logo.png' className='stacked-icon' alt='Books by Freepik'></img><span style={{paddingLeft: "16px"}}>StackEd</span></span>
             </div>
             <div className="center-content">
                 <div
@@ -25,8 +25,8 @@ export const Navbar = () => {
                             <span>Back End</span>
                             <span>Front End</span>
                             <span>Full Stack</span>
-                            <span>Devops</span>
-                            <span>Scrum</span>
+                            <span>DevOps</span>
+                            <span>Agile</span>
                         </div>
                     )}
                 </div>

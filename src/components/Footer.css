@@ -1,9 +1,10 @@
 .footer {
-    position: fixed;
+    position: static;
     bottom: 0;
     left: 0;
     min-width: 320px;
     width: 100%;
+    margin-top: 1em;
     height: min-content;
     text-align: center;
     background: var(--dark);
@@ -15,7 +16,7 @@
 }
 
 .footer span {
-    color: var(--medium-dark);
+    color: var(--medium);
 }
 
 .footer ul {
