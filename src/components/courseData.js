@@ -2,56 +2,56 @@ export const courseData = [
     {
         image: '/src/assets/images/html-css.png',
         name: 'HTML & CSS Fundamentals',
-        category: 'Front-End',
+        category: 'Front End',
         description: 'Learn the basics of HTML and CSS and build a simple web page.',
         time: 16
     },
     {
         image: '/src/assets/images/javascript.png',
         name: 'JavaScript Essentials',
-        category: 'Front-End',
+        category: 'Front End',
         description: 'Get started with JavaScript and learn the fundamentals of programming.',
         time: 16
     },
     {
         image: '/src/assets/images/react.png',
         name: 'ReactJS Fundamentals',
-        category: 'Front-End',
+        category: 'Front End',
         description: 'Learn the basics of ReactJS and build a simple application.',
         time: 16
     },
     {
         image: '/src/assets/images/angular.png',
         name: 'Angular Essentials',
-        category: 'Front-End',
+        category: 'Front End',
         description: 'Get started with Angular and build a simple application.',
         time: 16
     },
     {
         image: '/src/assets/images/java.png',
         name: 'Java for Beginners',
-        category: 'Back-End',
+        category: 'Back End',
         description: 'Get started with Java and build a simple application.',
         time: 72
     },
     {
         image: '/src/assets/images/python-django.png',
         name: 'Python & Django Basics',
-        category: 'Back-End',
+        category: 'Back End',
         description: 'Learn the basics of Python and Django and build a simple web application.',
         time: 48
     },
     {
         image: '/src/assets/images/ruby-on-rails.png',
         name: 'Ruby on Rails Crash Course',
-        category: 'Back-End',
+        category: 'Back End',
         description: 'Build a Ruby on Rails application from scratch.',
         time: 48
     },
     {
         image: '/src/assets/images/kotlin.png',
         name: 'Kotlin Essentials',
-        category: 'Back-End',
+        category: 'Back End',
         description: 'Get started with Kotlin and build a simple application.',
         time: 8
     },
@@ -102,6 +102,13 @@ export const courseData = [
         name: 'Lean 6-sigma Basics',
         category: 'Agile Methodologies',
         description: 'Learn the fundamentals of Lean 6-sigma and process improvement.',
+        time: 2
+    },
+    {
+        image: '/src/assets/images/crystal.png',
+        name: 'Crystal',
+        category: 'Agile Methodologies',
+        description: 'Learn the fundamentals of Crystal Framework',
         time: 2
     }
 ];
