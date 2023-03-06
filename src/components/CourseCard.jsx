@@ -1,5 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import { FaRegClock } from 'react-icons/fa'
 import './CourseCard.css'
 
 export const CourseCard = (props) => {
@@ -10,9 +11,9 @@ export const CourseCard = (props) => {
             <img src={image} alt={name} className="card-icon" />
             <div className="card-body">
                 <h2>{name}</h2>
-                <p>Category: {category}</p>
+                {/* <p>Category: {category}</p> */}
                 <p>{description}</p>
-                <p>Time: {time} hours</p>
+                <p className='clock'><FaRegClock /> {time} hours</p>
             </div>
         </div>
     );
