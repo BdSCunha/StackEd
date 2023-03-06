@@ -1,0 +1,47 @@
+.footer {
+    position: static;
+    bottom: 0;
+    left: 0;
+    min-width: 320px;
+    width: 100%;
+    margin-top: 1em;
+    height: min-content;
+    text-align: center;
+    background: var(--dark);
+    color: var(--medium);
+}
+
+.footer .container {
+    padding-bottom: 1em;
+}
+
+.footer span {
+    color: var(--medium);
+}
+
+.footer ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    padding: 1em;
+    height: 53.6px;
+}
+
+.icon {
+    width: 20px;
+    height: 20px;
+}
+
+.icon:hover {
+    cursor: pointer;
+    filter: invert(75%);
+}
+
+.address > span {
+    min-width: min-content;
+}
